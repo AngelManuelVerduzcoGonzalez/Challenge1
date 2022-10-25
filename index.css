@@ -1,10 +1,32 @@
 
+html {
+    height: 100%;
+}
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    min-height: 100%;
+}
+/* HEADER */
 header {
     background-image: url(images/bg-hero-desktop.svg);
 
 }
+header {
+    margin: 30px;
+}
 /* FUENTES */
-
+.subtitles {
+    font-family: 'Open Sans';
+}
+header h1 {
+    font-family: 'Open Sans';
+}
+p {
+    font-family: 'Poppins';
+}
 /* DISEÑO BOTONES */
 .button {
     border-radius: 15px;
@@ -14,6 +36,7 @@ header {
     background-color: #f158ba;
     color: #fcfafb;
     border:#f158ba;
+    
 }
 #pink-2 {
     background-color: #f158ba;
@@ -34,6 +57,9 @@ header {
     color: #909ea6;
 }
 /* DISEÑO FOOTER */
+footer {
+    display:flex
+}
 .footer {
     background-color: #08262f;
 }
@@ -50,6 +76,11 @@ footer p {
     color: #fcfafb;
     border-color: transparent;
 }
-.info:active {
+.info:hover {
     border-bottom-color: #fcfafb;
+}
+/* SECCIONES */
+div {
+    box-shadow:  0 0 0.5px rgb(0, 0, 0,0.8);
+};
 }
