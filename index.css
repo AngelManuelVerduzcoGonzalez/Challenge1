@@ -1,0 +1,55 @@
+
+header {
+    background-image: url(images/bg-hero-desktop.svg);
+
+}
+/* FUENTES */
+
+/* DISEÑO BOTONES */
+.button {
+    border-radius: 15px;
+    box-shadow: 0 0 0.5px rgb(0, 0, 0,0.8);
+}
+#pink-1 {
+    background-color: #f158ba;
+    color: #fcfafb;
+    border:#f158ba;
+}
+#pink-2 {
+    background-color: #f158ba;
+    color: #fcfafb;
+    border: #f158ba;
+}
+#pink-2:active {
+    background-color: #f19ccb;
+}
+#pink-2:active {
+    background-color: #f19ccb;
+}
+#white {
+    background-color: #fcfafb;
+    border: #fcfafb;
+}
+#white:active {
+    color: #909ea6;
+}
+/* DISEÑO FOOTER */
+.footer {
+    background-color: #08262f;
+}
+footer p {
+    color: #fcfafb;
+}
+.social {
+    background-color: #08262f;
+    border-radius: 50%;
+    border-color: #fcfafb;
+}
+.info {
+    background-color: #08262f;
+    color: #fcfafb;
+    border-color: transparent;
+}
+.info:active {
+    border-bottom-color: #fcfafb;
+}
